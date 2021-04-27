@@ -176,7 +176,7 @@ public class LoanAssistant {
 		gbc_analysisTextArea.gridy = 1;
 		frame.getContentPane().add(analysisTextArea, gbc_analysisTextArea);
 		
-		JLabel monthsLabel = new JLabel("No. of payments");
+		JLabel monthsLabel = new JLabel("Number of Payments");
 		monthsLabel.setFont(new Font("Arial", Font.PLAIN, 16));
 		GridBagConstraints gbc_monthsLabel = new GridBagConstraints();
 		gbc_monthsLabel.anchor = GridBagConstraints.WEST;
@@ -223,7 +223,7 @@ public class LoanAssistant {
 		gbc_monthsButton.gridy = 2;
 		frame.getContentPane().add(monthsButton, gbc_monthsButton);
 		
-		JLabel paymentLabel = new JLabel("monthly payment");
+		JLabel paymentLabel = new JLabel("Monthly Payment");
 		paymentLabel.setFont(new Font("Arial", Font.PLAIN, 16));
 		GridBagConstraints gbc_paymentLabel = new GridBagConstraints();
 		gbc_paymentLabel.insets = new Insets(10, 10, 5, 5);
